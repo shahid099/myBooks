@@ -69,28 +69,37 @@ ul li a{
     }
 }
 
-/* =========== Other Pages Css ========== */
+/* =========== Main section Css ========== */
 
+.main {
+    width: 100%;
+    min-height: 40vh;
+    background: #aeaeae;
+}
 ol {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 40px;
+    padding: 40px 40px 40px 120px;
 }
 
 ol a {
     color: #000000;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-.box_1 {
+.box_1, .box_2, .box_3 {
     display: none;
 }
 
-.box_2 {
+.Zero_to_One {
     display: none;
 }
 
-.box_3 {
-    display: none;
+.summery {
+    font-size: 25px;
+}
+/* ================ Toggle this class When Clicked to Every Book Name ================= */
+.displayBlock {
+    display: block;
 }

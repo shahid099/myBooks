@@ -24,3 +24,12 @@ selfHelp.addEventListener('click', ()=> {
     box_2.style.display = 'none';
     box_3.style.display = 'block';
 })
+
+// Adding the Summary to Every Book
+
+const zeroToOne = document.getElementById('zeroToOne');
+const Zero_to_One = document.querySelector('.Zero_to_One');
+
+zeroToOne.addEventListener('click', ()=> {
+    Zero_to_One.classList.toggle('displayBlock')
+})
