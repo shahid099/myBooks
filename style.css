@@ -39,7 +39,7 @@ ul li a{
         color: #870b85;
     }
     nav {
-        height: 30vh;
+        height: 35vh;
         flex-direction: column;
         justify-content: flex-start;
     }
