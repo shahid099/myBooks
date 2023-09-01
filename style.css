@@ -92,11 +92,11 @@ ol a {
     display: none;
 }
 
-.Zero_to_One {
+.displayNone {
     display: none;
 }
-
 .summery {
+    cursor: copy;
     font-size: 25px;
 }
 /* ================ Toggle this class When Clicked to Every Book Name ================= */
